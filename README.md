@@ -46,7 +46,7 @@ DFD-Net exhibits remarkable stability and high sensitivity to micro-textures sma
 > **Figure 5.** Training loss and metric curves. The model reaches peak precision rapidly with minimal oscillation, validating the efficacy of the **Slide Weight Function (SWF)**.
 
 | Method | Precision | Recall | mAP50 |
-| :--- | :---: | :---: | :---: | :---: |
+| :--- | :---: | :---: | :---: |
 | YOLOv11n (Baseline) | 0.872 | 0.803 | 0.872 |
 | **DFD-Net (Ours)** | **0.928** | **0.865** | **0.925** |
 
