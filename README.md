@@ -1,7 +1,7 @@
 # 🦷 DFD-Net: Direction-Aware and Frequency-Aligned Network for Precise Tooth Crack Detection
 
 <div align="center">
-
+[![Zenodo DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20439973.svg)](https://doi.org/10.5281/zenodo.20439973)
 [![PyTorch 2.4](https://img.shields.io/badge/PyTorch-2.4.0-EE4C2C?style=flat-square&logo=pytorch)](https://pytorch.org/)
 [![YOLOv11](https://img.shields.io/badge/Base-YOLOv11-00FFFF?style=flat-square&logo=gitl)](https://github.com/ultralytics/ultralytics)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg?style=flat-square)](https://opensource.org/licenses/Apache-2.0)
@@ -12,6 +12,13 @@
 </div>
 
 ---
+
+| Resource | Description | Link |
+| :--- | :--- | :--- |
+| **Complete Dataset** | 753 expert-annotated intraoral images (YOLO format) | [Download](https://doi.org/10.5281/zenodo.20439973) |
+| **Pre-trained Weights** | Optimized `.pt` files for DFD-Net (Ours) | [Download](https://doi.org/10.5281/zenodo.20439973) |
+| **Validation Samples** | Zero-shot industrial test samples (PVEL-AD) | [Download](https://doi.org/10.5281/zenodo.20439973) |
+
 
 ## 💡 Motivation & Highlights
 Tooth cracks are the "silent killers" of natural dentition. DFD-Net is engineered to capture 1D-like pathological features while isolating complex clinical noise.
@@ -38,10 +45,10 @@ DFD-Net exhibits remarkable stability and high sensitivity to micro-textures sma
 ![Figure 5](assets/fig5.png)
 > **Figure 5.** Training loss and metric curves. The model reaches peak precision rapidly with minimal oscillation, validating the efficacy of the **Slide Weight Function (SWF)**.
 
-| Method | Precision | Recall | mAP50 | Params (M) |
+| Method | Precision | Recall | mAP50 |
 | :--- | :---: | :---: | :---: | :---: |
-| YOLOv11n (Baseline) | 0.872 | 0.803 | 0.872 | 2.6 |
-| **DFD-Net (Ours)** | **0.928** | **0.865** | **0.925** | **2.4** |
+| YOLOv11n (Baseline) | 0.872 | 0.803 | 0.872 |
+| **DFD-Net (Ours)** | **0.928** | **0.865** | **0.925** |
 
 ---
 
