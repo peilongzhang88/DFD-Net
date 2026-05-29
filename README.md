@@ -1,7 +1,7 @@
 # 🦷 DFD-Net: Direction-Aware and Frequency-Aligned Network for Precise Tooth Crack Detection
 
 <div align="center">
-[![Zenodo DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20439973.svg)](https://doi.org/10.5281/zenodo.20439973)
+
 [![PyTorch 2.4](https://img.shields.io/badge/PyTorch-2.4.0-EE4C2C?style=flat-square&logo=pytorch)](https://pytorch.org/)
 [![YOLOv11](https://img.shields.io/badge/Base-YOLOv11-00FFFF?style=flat-square&logo=gitl)](https://github.com/ultralytics/ultralytics)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg?style=flat-square)](https://opensource.org/licenses/Apache-2.0)
